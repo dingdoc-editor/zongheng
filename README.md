@@ -10,7 +10,7 @@
 `zongheng` 为 "纵横" 的拼音，灵感源于表格由横竖网格交错构成，寓指 "诸子百家，唯我纵横"
 
 ## 开始使用
-本仓库主要是 zongheng 的相关使用示例，详细接入请参考(官网)[https://page.dingtalk.com/app/alidocs/zongheng-site/index.html#/]
+本仓库主要是 zongheng 的相关使用示例，详细接入请参考[官网](https://page.dingtalk.com/app/alidocs/zongheng-site/index.html)
 
 ## 浏览器兼容性
 
