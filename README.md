@@ -9,11 +9,11 @@
 
 `zongheng` 为 "纵横" 的拼音，灵感源于表格由横竖网格交错构成，寓指 "诸子百家，唯我纵横"
 
+## 开始使用
+本仓库主要是 zongheng 的相关使用示例，详细接入请参考(官网)[https://page.dingtalk.com/app/alidocs/zongheng-site/index.html#/]
+
 ## 浏览器兼容性
 
 | [<img src="https://img.alicdn.com/imgextra/i1/O1CN01QD4tOj1sb7pn6onSA_!!6000000005784-2-tps-48-48.png" alt="Edge" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Edge | [<img src="https://img.alicdn.com/imgextra/i1/O1CN012MWCRL1jbHQVSUYoL_!!6000000004566-2-tps-48-48.png" alt="Chrome" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Chrome | [<img src="https://img.alicdn.com/imgextra/i2/O1CN01tLiEyZ1KsoBovDJVi_!!6000000001220-2-tps-48-48.png" alt="Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>Safari | [<img src="https://img.alicdn.com/imgextra/i4/O1CN01RtGY7b1jkRLcZ0AsC_!!6000000004586-2-tps-48-48.png" alt="iOS Safari" width="24px" height="24px" />](http://godban.github.io/browsers-support-badges/)<br/>iOS Safari
 | :---------: | :---------: | :---------: | :---------: |
 | last 2 versions | >= 63 | last 2 versions| last 2 versions
-
-## 开始使用
-本仓库主要是 zongheng 的相关使用示例，详细接入请参考(官网)[https://page.dingtalk.com/app/alidocs/zongheng-site/index.html#/]
