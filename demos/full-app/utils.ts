@@ -1,5 +1,5 @@
 const isArray = (v: unknown): v is any[] => Array.isArray(v);
-const isFunc = (v: unknown): v is (...args: any) => any => (typeof v === 'function');
+const isFunc = (v: unknown): v is (...args) => any => (typeof v === 'function');
 
 enum FileTypeEnum {
   IMAGE = "0",
@@ -45,7 +45,7 @@ async function upload(file: File, fileType: FileTypeEnum, onProgress?: (p: numbe
   });
 }
 
-export const uploadImages = async (...argvs: any[]) => {
+export const uploadImages = async (...argvs) => {
   if (argvs.length > 0 && isArray(argvs[0]) && argvs[0][0] instanceof File) {
     const result = await upload(
       argvs[0][0],

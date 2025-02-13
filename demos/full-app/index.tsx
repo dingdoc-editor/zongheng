@@ -13,12 +13,11 @@ import {
 } from '@ali/react-zongheng';
 import { uploadImages, selectImages } from './utils';
 
-
-const workbook = createWorkbook({
-  enableCalculationEngine: true,
-});
-
 const FlexTableDemo = () => {
+  const workbook = useMemo(() => createWorkbook({
+    enableCalculationEngine: true,
+  }), []);
+
   const commands = useMemo(() => {
     return commandsPremiumPreset.map((Command) => {
       if (Command.key === commandKeys.SignatureCommand.key) {

@@ -51,11 +51,16 @@ module.exports = {
   plugins: [
     new HtmlWebpackPlugin({
       minify: IS_DEV ? false: true,
-      template: path.resolve(__dirname, '../../public/index.html'), 
+      template: path.resolve(__dirname, './public/index.html'), 
     }),
   ],
   devServer: {
-    port: 8000
+    port: 8000,
+    client: {
+      overlay: {
+        runtimeErrors: false,
+      },
+    },
   },
   cache: {
     type: 'filesystem',
